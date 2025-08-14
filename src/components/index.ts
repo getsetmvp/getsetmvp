@@ -1,0 +1,12 @@
+export { default as Header } from './Header';
+export { default as Hero } from './Hero';
+export { default as StartupStruggle } from './StartupStruggle';
+export { default as Results } from './Results';
+export { default as TwoWeeksSection } from './TwoWeeksSection';
+export { default as ProcessSteps } from './ProcessSteps';
+export { default as QualityFirst } from './QualityFirst';
+export { default as ProjectsBuilt } from './ProjectsBuilt';
+export { default as Pricing } from './Pricing';
+export { default as FAQ } from './FAQ';
+export { default as FinalCTA } from './FinalCTA';
+export { default as Footer } from './Footer';
