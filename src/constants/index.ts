@@ -126,24 +126,16 @@ export const PROJECTS_BUILT = {
   title: "Projects Built",
   projects: [
     {
-      name: "SailMaster",
-      description: "Sailing trip management platform for The Blue Jet Company. The tool helps track bookings and invoices.",
-      image: "/placeholder-project-1.jpg"
+      name: "FitTrack",
+      description: "Comprehensive fitness tracker app with custom workout routine builder, progress tracking, and analytics. Users can create personalized workouts and monitor their fitness journey.",
+      image: "/images/fittrack.jpg",
+      url: "https://fittrack.getsetmvp.com"
     },
     {
-      name: "Purple Portfolio", 
-      description: "A personal brand monitoring app featuring dark UI themes and data visualization for marketing data.",
-      image: "/placeholder-project-2.jpg"
-    },
-    {
-      name: "Nexus Visions",
-      description: "An internal dashboard app that helps businesses visualize and analyze their data through modern interfaces.",
-      image: "/placeholder-project-3.jpg"
-    },
-    {
-      name: "CodMind",
-      description: "A developer productivity app that streamlines development workflows through intelligent automation.",
-      image: "/placeholder-project-4.jpg"
+      name: "Restabook - Italian Restaurant", 
+      description: "Full-featured Italian restaurant website with online reservation booking, digital menu display, food ordering system, customer reviews, and restaurant information management.",
+      image: "/images/restabook.png",
+      url: "https://restabook.getsetmvp.com"
     }
   ]
 } as const;
