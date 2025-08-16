@@ -1,5 +1,3 @@
-// Global constants for GetSetMVP website
-
 export const SITE_CONFIG = {
   name: "GetSetMVP",
   tagline: "Your Idea, Live in 2 Weeks",
@@ -23,13 +21,13 @@ export const STARTUP_STRUGGLE = {
       description: "Developers are expensive, freelancers are unreliable, and agencies take ages to even start working."
     },
     {
-      icon: "🕒", 
+      icon: "🕒",
       title: "The Endless Waiting Game",
       description: "Months of back-and-forth, missed deadlines, and still no results."
     },
     {
       icon: "🧩",
-      title: "Perfectionist Paralysis", 
+      title: "Perfectionist Paralysis",
       description: "You think you need the perfect product from day one, but the truth is, you just need to start."
     },
     {
@@ -45,7 +43,7 @@ export const RESULTS_SECTION = {
   subtitle: "IDEAS THAT NEVER SEE DAYLIGHT, WASTED\nRESOURCES, AND MISSED MARKET OPPORTUNITIES.",
   stats: [
     {
-      value: "Big percent",
+      value: "90%",
       description: "of startups fail before reaching product-market fit"
     },
     {
@@ -59,6 +57,14 @@ export const RESULTS_SECTION = {
   ]
 } as const;
 
+export const FOUNDER_INFO = {
+  title: "Meet The Founder",
+  description: "Hi, I'm Ibtesam, the founder of GetSetMVP. I have over 8 years of experience in web development, working with startups from pre-seed to Series A. I've built products for companies like TechCorp, StartupXYZ, and helped dozens of entrepreneurs turn their ideas into reality.",
+  story: "After launching 7 MVPs within 2 years in Dubai, I realized my calling was helping entrepreneurs transform their vision into actionable products. Now I'm dedicated to helping you do the same - quickly, affordably, and without the typical development headaches.",
+  cta: "Book a Free Call",
+  achievements: "Launched 50+ MVPs • 95% Client Satisfaction • 8 Years Experience"
+} as const;
+
 export const TWO_WEEKS_SECTION = {
   title: "2 WEEKS. THAT'S IT.",
   points: [
@@ -69,7 +75,7 @@ export const TWO_WEEKS_SECTION = {
     },
     {
       icon: "💸",
-      title: "AFFORDABLE", 
+      title: "AFFORDABLE",
       description: "A fraction of what agencies or developers charge."
     },
     {
@@ -97,7 +103,7 @@ export const PROCESS_STEPS = {
       icon: "idea.svg"
     },
     {
-      step: "2", 
+      step: "2",
       title: "MVP Blueprint",
       description: "We create a focused plan and wireframes for your MVP.",
       icon: "compute.svg"
@@ -106,11 +112,11 @@ export const PROCESS_STEPS = {
       step: "3",
       title: "Rapid Build",
       description: "Our team builds your MVP using proven frameworks and tools.",
-      icon: "rocket.svg"  
+      icon: "rocket.svg"
     },
     {
       step: "4",
-      title: "Launch & Iterate", 
+      title: "Launch & Iterate",
       description: "We deploy your MVP and help you gather user feedback for improvements.",
       icon: "stats.svg"
     }
@@ -132,7 +138,7 @@ export const PROJECTS_BUILT = {
       url: "https://fittrack.getsetmvp.com"
     },
     {
-      name: "Restabook - Italian Restaurant", 
+      name: "Restabook - Italian Restaurant",
       description: "Full-featured Italian restaurant website with online reservation booking, digital menu display, food ordering system, customer reviews, and restaurant information management.",
       image: "/images/restabook.png",
       url: "https://restabook.getsetmvp.com"
@@ -156,14 +162,6 @@ export const PRICING = {
   note: "First 3 clients get started at $979 before prices increase",
   cta: "Book a Call",
   spotCount: "3 spots left"
-} as const;
-
-export const FOUNDER_INFO = {
-  title: "Meet The Founder",
-  description: "Hi, I'm Ibtesam, the founder of GetSetMVP. I have over 8 years of experience in web development, working with startups from pre-seed to Series A. I've built products for companies like TechCorp, StartupXYZ, and helped dozens of entrepreneurs turn their ideas into reality.",
-  story: "After launching 7 MVPs within 2 years in Dubai, I realized my calling was helping entrepreneurs transform their vision into actionable products. Now I'm dedicated to helping you do the same - quickly, affordably, and without the typical development headaches.",
-  cta: "Book a Free Call",
-  achievements: "Launched 50+ MVPs • 95% Client Satisfaction • 8 Years Experience"
 } as const;
 
 export const FAQ_ITEMS = [
@@ -192,7 +190,7 @@ export const FAQ_ITEMS = [
 export const FINAL_CTA = {
   title: "Ready to Turn Your Idea Into Reality?",
   subtitle: "Don't let your brilliant idea become another \"what if\". Let's build your MVP in just 2-3 weeks and get you on the fast track to startup success!",
-  primaryButton: "Book a Call", 
+  primaryButton: "Book a Call",
   secondaryButton: "Share your idea"
 } as const;
 
@@ -200,7 +198,7 @@ export const FOOTER = {
   name: "GetSetMVP",
   links: {
     privacy: "Privacy Policy",
-    terms: "Terms of Service", 
+    terms: "Terms of Service",
     contact: "Contact"
   }
 } as const;

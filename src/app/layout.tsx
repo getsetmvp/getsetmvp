@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: `${SITE_CONFIG.name} - ${SITE_CONFIG.tagline}`,
   description: SITE_CONFIG.description,
   applicationName: SITE_CONFIG.name,
-  authors: [{ name: "Ibtesam" }],
+  authors: [{ name: "GetSetMVP Team" }],
   generator: "Next.js",
   keywords: ["MVP development", "startup", "web app", "fast development", "2-week MVP", "minimum viable product", "product launch", "startup ideas", "app development", "rapid prototyping"],
   referrer: "origin-when-cross-origin",
