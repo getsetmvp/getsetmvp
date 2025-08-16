@@ -52,9 +52,14 @@ export default function Header() {
           </a>
         </nav>
         
-        <button className="bg-[#ffdc58] text-black px-6 py-2 font-semibold border-2 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer">
+        <a 
+          href="https://calendly.com/getsetmvp/30min" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block bg-[#ffdc58] text-black px-6 py-2 font-semibold border-2 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer"
+        >
           {SITE_CONFIG.cta}
-        </button>
+        </a>
       </div>
     </header>
   );

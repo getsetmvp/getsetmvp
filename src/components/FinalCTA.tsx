@@ -12,12 +12,22 @@ export default function FinalCTA() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-white text-black px-8 py-3 rounded-md font-semibold text-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer">
+          <a 
+            href="https://calendly.com/getsetmvp/30min" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-black px-8 py-3 rounded-md font-semibold text-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer"
+          >
             {FINAL_CTA.primaryButton}
-          </button>
-          <button className="bg-[#ffdc58] text-black px-8 py-3 rounded-md font-semibold text-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer">
+          </a>
+          <a 
+            href="https://calendly.com/getsetmvp/30min" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block bg-[#ffdc58] text-black px-8 py-3 rounded-md font-semibold text-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer"
+          >
             {FINAL_CTA.secondaryButton}
-          </button>
+          </a>
         </div>
       </div>
     </section>

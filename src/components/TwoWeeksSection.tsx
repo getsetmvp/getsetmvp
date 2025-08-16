@@ -47,9 +47,14 @@ export default function TwoWeeksSection() {
             <h3 className="text-2xl font-extrabold text-black mb-4">
               {TWO_WEEKS_SECTION.cta}
             </h3>
-            <button className="bg-white text-black px-8 py-4 rounded-md font-semibold text-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer">
+            <a 
+              href="https://calendly.com/getsetmvp/30min" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-black px-8 py-4 rounded-md font-semibold text-lg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer"
+            >
               {TWO_WEEKS_SECTION.ctaButton}
-            </button>
+            </a>
           </div>
         </div>
       </div>
