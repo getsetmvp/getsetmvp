@@ -20,45 +20,46 @@ export default function Header() {
         <div className="text-2xl font-bold text-black">
           {SITE_CONFIG.name}
         </div>
-        
+
         <nav className="hidden md:flex items-center space-x-8">
-          <a 
-            href="#problem" 
+          <a
+            href="#problem"
             onClick={(e) => scrollToSection(e, 'problem')}
             className="text-black hover:opacity-70 transition-opacity font-medium cursor-pointer"
           >
             The problem
           </a>
-          <a 
-            href="#approach" 
+          <a
+            href="#approach"
             onClick={(e) => scrollToSection(e, 'approach')}
             className="text-black hover:opacity-70 transition-opacity font-medium cursor-pointer"
           >
             Our Approach
           </a>
-          <a 
-            href="#process" 
+          <a
+            href="#process"
             onClick={(e) => scrollToSection(e, 'process')}
             className="text-black hover:opacity-70 transition-opacity font-medium cursor-pointer"
           >
             Process
           </a>
-          <a 
-            href="#pricing" 
+          <a
+            href="#pricing"
             onClick={(e) => scrollToSection(e, 'pricing')}
             className="text-black hover:opacity-70 transition-opacity font-medium cursor-pointer"
           >
             Pricing
           </a>
         </nav>
-        
-        <a 
-          href="https://calendly.com/getsetmvp/30min" 
-          target="_blank" 
+
+        <a
+          href="https://calendly.com/getsetmvp/30min"
+          target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#ffdc58] text-black px-6 py-2 font-semibold border-2 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-150 cursor-pointer"
         >
-          {SITE_CONFIG.cta}
+          <span className="hidden lg:inline">{SITE_CONFIG.cta}</span>
+          <span className="lg:hidden">Get Started</span>
         </a>
       </div>
     </header>
