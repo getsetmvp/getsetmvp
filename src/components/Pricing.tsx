@@ -87,7 +87,7 @@ export default function Pricing() {
 
         <div className="text-center mt-12">
           <p className="text-lg text-gray-800 mb-6">
-            Not sure which plan fits your startup? Let's discuss your specific needs.
+            Not sure which plan fits your startup? Let&apos;s discuss your specific needs.
           </p>
           <a 
             href="https://calendly.com/getsetmvp/30min" 
