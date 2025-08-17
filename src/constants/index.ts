@@ -147,21 +147,48 @@ export const PROJECTS_BUILT = {
 } as const;
 
 export const PRICING = {
-  title: "Simple Pricing, Explosive Value",
-  price: "$979 Launch Price",
-  originalPrice: "",
-  savings: "",
-  features: [
-    "One Full Core Feature of Your Choice",
-    "User authentication and landing page",
-    "Fast 2-Week Development",
-    "Responsive design",
-    "2 Rounds of Changes & Updates"
+  title: "Choose Your Path to MVP Success",
+  subtitle: "Two flexible plans designed for different stages of your startup journey",
+  plans: [
+    {
+      name: "MVP Subscription",
+      tag: "Perfect for Validation",
+      price: "₹30,000",
+      period: "month",
+      description: "Start small, validate fast. Perfect for early-stage startups who want to test their idea without huge upfront costs.",
+      features: [
+        "Complete MVP development in 2-3 weeks",
+        "Ongoing maintenance included",
+        "Regular updates & bug fixes",
+        "Core feature implementation",
+        "User authentication & responsive design"
+      ],
+      additionalInfo: "Additional features available at extra cost",
+      ownership: "We retain ownership - You use as subscription",
+      cta: "Start Validation",
+      highlight: false
+    },
+    {
+      name: "Full Ownership MVP",
+      tag: "Complete Control",
+      price: "Custom",
+      period: "",
+      description: "Own your product completely. Perfect for startups ready to commit and scale without monthly dependencies.",
+      features: [
+        "Complete MVP development in 2-3 weeks",
+        "Full source code ownership",
+        "2 months free maintenance",
+        "Complete technical handover",
+        "All development documentation"
+      ],
+      additionalInfo: "Pricing tailored to your specific requirements",
+      ownership: "You own everything - Complete independence",
+      cta: "Get Custom Quote",
+      highlight: true
+    }
   ],
-  guarantee: "",
-  note: "First 3 clients get started at $979 before prices increase",
-  cta: "Book a Call",
-  spotCount: "3 spots left"
+  note: "Both plans include a free consultation to understand your exact requirements",
+  bottomCta: "Book a Free Strategy Call"
 } as const;
 
 export const FAQ_ITEMS = [

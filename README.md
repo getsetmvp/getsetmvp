@@ -31,7 +31,7 @@ We're a specialized MVP development company solving the #1 startup problem: **ac
 - **📈 Validation-Focused**: Built to test your idea with real users fast
 
 ---
-
+<!-- 
 ## 🏗️ **This Repository**
 
 This repo contains the source code for the **GetSetMVP website** - a modern, SEO-optimized, and conversion-focused landing page built with:
@@ -76,9 +76,9 @@ npm run build
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the website locally.
+Open [http://localhost:3000](http://localhost:3000) to view the website locally. -->
 
----
+<!-- ---
 
 ## 📁 **Project Structure**
 
@@ -104,7 +104,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the website locally.
 └── ...
 ```
 
----
+--- -->
 
 ## 🎨 **Featured Projects**
 
@@ -176,7 +176,7 @@ Tired of your brilliant idea being stuck in your head? Ready to finally LAUNCH a
 [**Schedule a 30-minute call**](https://calendly.com/getsetmvp/30min) to discuss getting your idea live
 
 ### 📧 **Get In Touch**
-- **Email**: hello@getsetmvp.com
+- **Email**: getsetmvp@gmail.com
 - **Website**: [getsetmvp.com](https://getsetmvp.com)
 
 ### 🚀 **What You Get (In 14 Days)**
