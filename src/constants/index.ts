@@ -163,8 +163,8 @@ export const PRICING = {
         "Core feature implementation",
         "User authentication & responsive design"
       ],
-      additionalInfo: "Additional features available at extra cost",
-      ownership: "We retain ownership - You use as subscription",
+      additionalInfo: "Option to purchase ownership anytime - price based on your business stage",
+      ownership: "Licensed to you during subscription • Buyout available",
       cta: "Start Validation",
       highlight: false
     },
@@ -187,7 +187,7 @@ export const PRICING = {
       highlight: true
     }
   ],
-  note: "Both plans include a free consultation to understand your exact requirements",
+  note: "Subscription plan includes full usage rights. Ownership can be purchased separately based on mutual agreement",
   bottomCta: "Book a Free Strategy Call"
 } as const;
 
